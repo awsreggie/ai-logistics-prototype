@@ -1,27 +1,38 @@
-# AI‑Powered Logistics Prototype
+# AI‑Powered Logistics Prototype 🚚
 
-## 🚀 Live Demo
-[Link to your EC2-hosted page](http://ec2‑13‑60‑196‑247.eu‑north‑1.compute.amazonaws.com)
+**A dynamic, professionally deployed landing page showcasing a cloud-based AI logistics platform.**
 
-## 🧰 Tech Stack
-- Ubuntu 24.04 EC2
-- NGINX
-- Tailwind CSS
-- (Optional) Node.js backend
+---
 
-## 👤 About Me
-**Reggie** – Lead Cloud Engineer  
-AWS | Kubernetes | Docker | CI/CD
+## 🌐 Live Demo
+
+This prototype is hosted on an AWS EC2 Ubuntu server:
+**Public IP:** `ec2-13-60-196-247.eu-north-1.compute.amazonaws.com`  
+👉 View live at: http://ec2-13-60-196-247.eu-north-1.compute.amazonaws.com
+
+---
 
 ## 📸 Screenshot
+
 ![Landing Page](project_screenshot.jpg)
 
-## 📚 Setup
-```bash
-cd ~/ai‑logistics‑prototype
-git init
-git add .
-git commit -m "…"
-git remote add origin https://github.com/awsreggie/ai-logistics-prototype.git
-git push -u origin main
+---
+
+## 🛠️ Technology Stack
+
+- **OS & Hosting**: Ubuntu 24.04 LTS on AWS EC2  
+- **Web Server**: NGINX  
+- **Frontend Styling**: Tailwind CSS  
+- **Version Control**: Git + GitHub (SSH authenticated)  
+- **Security**: EC2 Security Group allows HTTP/HTTPS; optional SSL with Let’s Encrypt  
+- *(Optional future upgrades: Node.js backend, contact form, live map, CI/CD, CSS animations)*
+
+---
+
+## 🚀 Deployment Steps
+
+1. **Provision & Update Server**
+   ```bash
+   ssh -i "reg_aws_key.pem" ubuntu@<public-ip>
+   sudo apt update && sudo apt upgrade -y
 
