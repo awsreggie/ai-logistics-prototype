@@ -8,7 +8,7 @@
 
 This prototype is hosted on an AWS EC2 Ubuntu server:
 **Public IP:** `ec2-13-60-196-247.eu-north-1.compute.amazonaws.com`  
-👉 View live at: http://ec2-13-60-196-247.eu-north-1.compute.amazonaws.com
+
 
 ---
 
